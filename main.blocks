@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="nH;go#v[HK;V`NZDRw/9" x="-21" y="-339"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="5s_6?bDppZKnUQ,(yr^6"><field name="LEDS">`
+        . # # # # 
+        . # . . # 
+        . # . . # 
+        # # . # # 
+        # # . # #
+        `</field></block></statement></block><block type="device_button_event" id="0Rf/*vr5d0^/iw[X55Wc" x="375" y="-224"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_print_message" id=".8Jl`N+J/C3Sd|L@+81g"><value name="text"><shadow type="text" id="OC78Lj7x:i0U)8OOt{?_"><field name="TEXT">Rock and role!</field></shadow></value><next><block type="device_show_leds" id="1.[#_nWCrml]S(a{wGpm"><field name="LEDS">`
+        . # # # # 
+        . # . . # 
+        . # . . # 
+        # # . # # 
+        # # . # #
+        `</field></block></next></block></statement></block><block type="device_button_event" id="3^!A+i6$^eVLo],]3#f/" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_repeat_ext" id="W.-H*3SF}=`M7D/Z_b(X"><value name="TIMES"><shadow type="math_whole_number" id=")sj)tQ~[-gmHS*W*a(Pn"><field name="NUM">10</field></shadow></value><statement name="DO"><block type="servoservosetangle" id="lwu[%F@*|PtlJD)Xaa.9"><field name="servo">servos.P1</field><value name="degrees"><shadow type="protractorPicker" id="z!]KR{k8vuX3:N]0l{Bd"><field name="angle">0</field></shadow></value><next><block type="device_pause" id="+S!15CW3dr{c6GkBzSa+"><value name="pause"><shadow type="timePicker" id="1Y^_#)Z_aFdciwLi|`/t"><field name="ms">610</field></shadow></value><next><block type="servoservosetangle" id="t$|i1(F[0;Q:LBG94h^;"><field name="servo">servos.P1</field><value name="degrees"><shadow type="protractorPicker" id="Y6}IZo,YBo|JAQ6.brCd"><field name="angle">180</field></shadow></value><next><block type="device_pause" id="tz]2~WSScu)A*wdV=J%0"><value name="pause"><shadow type="timePicker" id="N*5yKa3n1MhbwY6csZTR"><field name="ms">610</field></shadow></value></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_gesture_event" id="R$RzG*Mr95v#~^.L=jXV" x="380" y="139"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_print_message" id="j_S|n?u9RZN`HDclGQYb"><value name="text"><shadow type="text" id=",NQ,$%n7B3)S=ZnvxdIr"><field name="TEXT">Raf, Tim en DylanC</field></shadow></value><next><block type="device_show_leds" id="RdsvjINdO15IuX)3HdIA"><field name="LEDS">`
+        . # # # # 
+        . # . . # 
+        . # . . # 
+        # # . # # 
+        # # . # #
+        `</field></block></next></block></statement></block></xml>
